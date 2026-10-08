@@ -1,0 +1,22 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- scratch / one-off development tooling (not part of the study) ---
+_scratch/
+
+# --- large binary artefact: distributed as a GitHub Release asset, not via git ---
+artefacts_pack.zip
+
+# --- non-public working documents (course administration, dev journal) ---
+archive/Project_Brief_Medical_Report_Generation.md
+archive/presentation_plan.md
+archive/PROJECT_LOG.md
+archive/stage1_setup.ipynb
+archive/notebook5362e22976.ipynb
+archive/Projet LLM*.xlsx
+
+# --- local caches / OS junk ---
+.claude/
+Thumbs.db
+.DS_Store

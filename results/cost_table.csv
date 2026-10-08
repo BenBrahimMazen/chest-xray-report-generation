@@ -1,0 +1,5 @@
+system,trainable_params,train_hours,peak_gpu_gb,mean_latency_s,trainable_params_M,trainable_params_pct_of_4B
+B1 template,0,0.0,0.0,0.0,0.0,0.0
+B2 retrieval,0,0.0,,,0.0,0.0
+M QLoRA r=32,74305536,2.8,8.36,2.511071570859565,74.31,1.86
+Ablation r=8,18576384,2.76,7.39,2.8098035253992903,18.58,0.46
