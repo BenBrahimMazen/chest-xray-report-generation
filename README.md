@@ -37,7 +37,6 @@ An end-to-end research study, not just a model demo: five report-generation syst
 10. [Repository structure](#10-repository-structure)
 11. [Reproducing the study](#11-reproducing-the-study)
 12. [Credits, license and disclaimer](#12-credits-license-and-disclaimer)
-13. [AI usage disclosure](#13-ai-usage-disclosure)
 
 ---
 
@@ -374,10 +373,6 @@ Hardware used: one NVIDIA A10G on [Modal](https://modal.com), pay-per-second; th
 - Libraries: `transformers`, `peft`, `bitsandbytes` (QLoRA: NF4, double quant), `nltk` / `rouge_score` / `bert-score` (metrics), `pandas`, `streamlit`, `modal`
 
 Code released for research and educational use. **Not a medical device** — deployment would need radiologist review, calibration, and prospective validation.
-
-## 13. AI usage disclosure
-
-Claude (Anthropic) was used **as a code assistant only**: scaffolding code, regex drafts, and tooling for the review pages. **All scientific choices (design, systems, metrics, thresholds, cut decisions) were made by the author, who ran every experiment and every manual labelling pass himself.** For the two manual passes, Claude additionally produced a clearly-marked *first-pass suggestion* (`ai_hint_*` columns) for every item; the author read every report and set every final label (`manual_*`), confirming or correcting those suggestions. All agreement and hallucination statistics in this study are computed from the author's final labels only. The full disclosure text is in the notebook (§AI usage).
 
 ---
 
